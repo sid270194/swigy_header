@@ -1,0 +1,49 @@
+.container {
+  margin-top: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 70px;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.nav-option {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.nav-option a {
+  text-decoration: none;
+}
+
+.address a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  line-height: 16px;
+}
+
+.address {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.address a:hover {
+  color: rgb(245, 155, 77);
+}
